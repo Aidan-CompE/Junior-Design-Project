@@ -1439,6 +1439,30 @@
 		(color 0 0 0 0)
 		(uuid "1ea3026d-225b-474a-9979-f96c6ecda49e")
 	)
+	(junction
+		(at 125.73 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30b8c28e-7adc-44aa-af68-e34a25c3fcf2")
+	)
+	(junction
+		(at 54.61 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39b729e6-490b-4474-9766-6b18d6fc614e")
+	)
+	(junction
+		(at 152.4 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a0f72c-3974-41f2-b235-2192249671de")
+	)
+	(junction
+		(at 115.57 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8814ea1-a8db-42ca-9956-2e7339d5ff0e")
+	)
 	(wire
 		(pts
 			(xy 106.68 71.12) (xy 115.57 71.12)
@@ -1448,6 +1472,16 @@
 			(type default)
 		)
 		(uuid "004d37f9-996f-4ae5-ba5e-489582c89c89")
+	)
+	(wire
+		(pts
+			(xy 125.73 71.12) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042df390-f555-43c2-a89a-7b26a9d38a4e")
 	)
 	(wire
 		(pts
@@ -1461,13 +1495,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 71.12) (xy 160.02 71.12)
+			(xy 152.4 68.58) (xy 160.02 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3745a8c7-e93c-497d-88da-8867205437b6")
+	)
+	(wire
+		(pts
+			(xy 125.73 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42aacd93-339d-4e14-b08c-0b4428579dcf")
 	)
 	(wire
 		(pts
@@ -1481,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 152.4 58.42)
+			(xy 130.81 44.45) (xy 152.4 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1535,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 58.42) (xy 68.58 62.23)
+			(xy 53.34 71.12) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4b7553-d585-44f4-ba2d-86907f5b9b25")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 68.58 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 68.58 71.12)
+			(xy 68.58 67.31) (xy 68.58 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 152.4 71.12)
+			(xy 152.4 44.45) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 106.68) (xy 54.61 106.68)
+			(xy 44.45 106.68) (xy 54.61 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1571,6 +1625,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 66.04) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905bf25f-d934-4fc3-8795-7f97f77d947c")
+	)
+	(wire
+		(pts
 			(xy 115.57 71.12) (xy 115.57 74.93)
 		)
 		(stroke
@@ -1591,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 96.52) (xy 54.61 96.52)
+			(xy 44.45 96.52) (xy 54.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 58.42) (xy 123.19 58.42)
+			(xy 93.98 44.45) (xy 123.19 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1631,13 +1695,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 71.12) (xy 184.15 73.66)
+			(xy 184.15 68.58) (xy 184.15 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bcb5df1f-9017-48d1-8d79-c87352f1f5cc")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62b35fa-8ac6-411d-8db2-c427d240a27f")
 	)
 	(wire
 		(pts
@@ -1651,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 58.42) (xy 93.98 71.12)
+			(xy 93.98 44.45) (xy 93.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1681,13 +1755,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 71.12) (xy 184.15 71.12)
+			(xy 167.64 68.58) (xy 184.15 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed066f2b-bf1d-4c51-a445-5cee718774a2")
+	)
+	(wire
+		(pts
+			(xy 140.97 68.58) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebc0e3c-9372-44fe-a7eb-9806af148b0a")
 	)
 	(wire
 		(pts
@@ -1698,6 +1782,113 @@
 			(type default)
 		)
 		(uuid "f82afca6-bf50-4c54-8f5c-0aa88e09ddc7")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f33960-31f4-442e-a285-881bb1ed4bf8")
+	)
+	(wire
+		(pts
+			(xy 115.57 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd04d3ac-6bae-405b-aa99-cf0165791759")
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 133.35 68.58 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06c3d2b0-b8ae-43f1-9e83-0830197b4482")
+		(property "Reference" "U3"
+			(at 133.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 133.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 133.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0c7a570f-46bd-4120-a719-e63f1823198d")
+		)
+		(pin "8"
+			(uuid "15ef63fe-d9c6-424c-b186-76cc94fc9806")
+		)
+		(pin "4"
+			(uuid "69e85ba8-abd2-4e58-a365-07a8b6608975")
+		)
+		(pin "6"
+			(uuid "9da05224-526d-4c3e-b9ca-0cff42761e78")
+		)
+		(pin "7"
+			(uuid "71530a8c-8069-4b8d-b312-75d3c586686a")
+		)
+		(pin "3"
+			(uuid "50015a91-d21d-4342-8aac-55cd105c4c35")
+		)
+		(pin "1"
+			(uuid "23b5de0e-582a-4611-8443-6ed88238fba1")
+		)
+		(pin "2"
+			(uuid "e59e1850-06d6-4c7b-baca-9534fb81b5dd")
+		)
+		(instances
+			(project ""
+				(path "/7ecdbbf5-c0fa-4425-bf77-e5f5f58a384b"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1767,7 +1958,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 58.42 90)
+		(at 127 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1775,7 +1966,7 @@
 		(dnp no)
 		(uuid "2974c94f-0fe0-473d-b9b9-fd4d4c2d87f3")
 		(property "Reference" "C3"
-			(at 127 54.864 90)
+			(at 127 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1974,7 @@
 			)
 		)
 		(property "Value" "4.7n"
-			(at 127 62.484 90)
+			(at 127 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +1982,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
-			(at 130.81 57.4548 0)
+			(at 130.81 43.4848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 58.42 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2000,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 58.42 0)
+			(at 127 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +2095,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 68.58 66.04 0)
+		(at 68.58 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1913,7 +2104,7 @@
 		(fields_autoplaced yes)
 		(uuid "32c50cb7-462b-4618-aeac-da107a157bed")
 		(property "Reference" "R1"
-			(at 71.12 64.7699 0)
+			(at 71.12 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +2113,7 @@
 			)
 		)
 		(property "Value" "470K"
-			(at 71.12 67.3099 0)
+			(at 71.12 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +2122,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 69.596 66.294 90)
+			(at 69.596 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 66.04 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +2140,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 68.58 66.04 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,6 +2301,92 @@
 				(path "/7ecdbbf5-c0fa-4425-bf77-e5f5f58a384b"
 					(reference "U2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 226.06 50.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46c72422-f4cf-4ff3-a400-09a050323b45")
+		(property "Reference" "U3"
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f85474b-88a9-4f28-a812-fb275baebb12")
+		)
+		(pin "3"
+			(uuid "5d62c6cc-bfc3-46ba-9ce2-13f1a2603087")
+		)
+		(pin "1"
+			(uuid "28f80fbc-b415-4369-a4a3-295c187d26f2")
+		)
+		(pin "5"
+			(uuid "27b92eb8-4891-43f1-a14d-a62ecf560b33")
+		)
+		(pin "4"
+			(uuid "25bea2ed-ffa1-4a91-aca3-f05424f86115")
+		)
+		(pin "6"
+			(uuid "b3a2d89f-6ad7-4a68-a48f-73bfd8e907e2")
+		)
+		(pin "8"
+			(uuid "f07eee57-4bb8-4891-80cf-6253fd2df8cb")
+		)
+		(pin "7"
+			(uuid "ded8982f-bd5e-4b44-a62a-855989f7d1f9")
+		)
+		(instances
+			(project ""
+				(path "/7ecdbbf5-c0fa-4425-bf77-e5f5f58a384b"
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -2318,6 +2595,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 224.79 74.93 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9175d141-718f-42b8-ab2c-58ab88d78fc1")
+		(property "Reference" "U3"
+			(at 223.52 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 223.52 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 224.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 224.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9ceef7c1-b034-46a3-abb9-93e6b8e62e36")
+		)
+		(pin "7"
+			(uuid "14c45458-db02-4bf0-b874-ed1d40fcc301")
+		)
+		(pin "6"
+			(uuid "8be95e61-8f97-4f6a-b201-5ae1904290c0")
+		)
+		(pin "5"
+			(uuid "d951f043-576f-4f64-afec-0202cac7b32e")
+		)
+		(pin "8"
+			(uuid "0b05e583-9b4b-40f9-93a5-70abcd2958b9")
+		)
+		(pin "1"
+			(uuid "d923e307-ac7c-4999-981f-8b3c7baf819b")
+		)
+		(pin "2"
+			(uuid "7c56b92a-2e1a-4f37-ad5e-cb69dbeb32cc")
+		)
+		(pin "3"
+			(uuid "e9d344d9-4503-42dc-9e03-e117c6ba7b86")
+		)
+		(instances
+			(project ""
+				(path "/7ecdbbf5-c0fa-4425-bf77-e5f5f58a384b"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 95.25 0)
 		(unit 1)
@@ -2378,92 +2743,6 @@
 			(project "JDPHW5"
 				(path "/7ecdbbf5-c0fa-4425-bf77-e5f5f58a384b"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV2372")
-		(at 134.62 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a061c26a-eb45-4b6c-97c7-57307561edd0")
-		(property "Reference" "U3"
-			(at 134.62 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV2372"
-			(at 134.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "0d14708e-e72f-4a76-91e9-267e3fd4373d")
-		)
-		(pin "3"
-			(uuid "53558f3e-69c0-4f70-8313-a0c90b2ebc33")
-		)
-		(pin "6"
-			(uuid "6bd5a94f-1962-4fce-ad70-dd843fd0030f")
-		)
-		(pin "7"
-			(uuid "839b5e38-550a-4b7f-a8c6-107dadd57f55")
-		)
-		(pin "8"
-			(uuid "aecc4247-5cd9-4705-a711-487b17f95b1b")
-		)
-		(pin "4"
-			(uuid "77307790-4626-422c-af57-2fcd22e33f27")
-		)
-		(pin "1"
-			(uuid "78e5946e-ec7c-4c02-b1da-b4289ac8c3b7")
-		)
-		(pin "2"
-			(uuid "e016fda7-3270-4d4e-8ce0-5466b67cfb77")
-		)
-		(instances
-			(project ""
-				(path "/7ecdbbf5-c0fa-4425-bf77-e5f5f58a384b"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3431,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 71.12 90)
+		(at 163.83 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3160,7 +3439,7 @@
 		(dnp no)
 		(uuid "f715edf2-3ca2-4d97-a4c7-8e9efa2d6c0c")
 		(property "Reference" "C4"
-			(at 163.83 67.564 90)
+			(at 163.83 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3447,7 @@
 			)
 		)
 		(property "Value" "47μ"
-			(at 163.83 75.184 90)
+			(at 163.83 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3455,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
-			(at 167.64 70.1548 0)
+			(at 167.64 67.6148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 71.12 0)
+			(at 163.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3473,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 71.12 0)
+			(at 163.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
