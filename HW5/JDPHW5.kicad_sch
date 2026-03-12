@@ -1925,6 +1925,12 @@
 		(uuid "39b729e6-490b-4474-9766-6b18d6fc614e")
 	)
 	(junction
+		(at 190.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a163da49-7061-41fa-a463-43b375282f3d")
+	)
+	(junction
 		(at 152.4 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2244,6 +2250,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 77.47) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a358ada-e941-45bb-87a3-57a8c9b749a6")
+	)
+	(wire
+		(pts
 			(xy 125.73 66.04) (xy 125.73 71.12)
 		)
 		(stroke
@@ -2261,6 +2277,16 @@
 			(type default)
 		)
 		(uuid "981acf56-6692-4a5c-9e17-e97e18255c6b")
+	)
+	(wire
+		(pts
+			(xy 190.5 77.47) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d171a8-97b1-4639-96fb-5efb437aa097")
 	)
 	(wire
 		(pts
@@ -2301,6 +2327,16 @@
 			(type default)
 		)
 		(uuid "aa92b894-70b8-4245-9f42-00d058a8ef5b")
+	)
+	(wire
+		(pts
+			(xy 194.31 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2ba734-f829-42b7-89a5-ca523ee9f1b7")
 	)
 	(wire
 		(pts
@@ -2434,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 77.47) (xy 194.31 77.47)
+			(xy 187.96 77.47) (xy 190.5 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2521,6 +2557,16 @@
 			(justify left bottom)
 		)
 		(uuid "aec63491-0236-4a61-b5c8-785eeb4f3e32")
+	)
+	(label "Line_Out"
+		(at 194.31 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7f40a97-448a-482c-b821-d77ad1705ee9")
 	)
 	(label "PWM2"
 		(at 44.45 106.68 0)
