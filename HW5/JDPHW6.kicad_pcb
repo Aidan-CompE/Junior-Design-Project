@@ -43,13 +43,13 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -77,9 +77,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -30919,7 +30919,7 @@
 		)
 		(polygon
 			(pts
-				(xy 166.116 172.212) (xy 161.544 57.912) (xy 57.912 50.8) (xy 82.296 186.944) (xy 166.116 170.18)
+				(xy 153.924 163.068) (xy 152.4 59.436) (xy 79.756 60.452) (xy 81.28 163.068) (xy 153.924 163.068)
 			)
 		)
 		(filled_polygon
